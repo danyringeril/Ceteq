@@ -1,0 +1,27 @@
+package com;
+
+import java.util.Scanner;
+
+public class EntradaDeDatos {
+
+	public static void main(String[] args) {
+		/*Introducir valores por teclado, ejemplo
+		 *numeros enteros
+		 *
+		 *Primero declaro una variable de tipo entero donde guardar 
+		 *el valor que introducire por teclado
+		 */
+		int numero; 
+		
+		/*Recurriremos al uso de un tipo de dato o clase
+		 *llamada scanner
+		 */
+		Scanner entrada = new Scanner(System.in);
+		
+		numero = entrada.nextInt();
+		
+		
+
+	}
+
+}

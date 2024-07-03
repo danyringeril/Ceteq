@@ -1,0 +1,35 @@
+package com;
+
+import java.io.File;
+
+public class JavaFW {
+
+	public static void main(String[] args) {
+		
+		//Uso de las clases Java File y File Writer
+		
+		//Vamos a declarar una cadena de texto para escribirla en nuestro archivo de prueba
+		String texto = "\nDaniel Sánchez";
+		
+		try {
+			File archivo = new File("C:\\Users\\danyr\\OneDrive\\Escritorio\\fichero.txt");
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+		
+		
+	}
+
+}
+
+
+
+
+
+
+
+
+
+

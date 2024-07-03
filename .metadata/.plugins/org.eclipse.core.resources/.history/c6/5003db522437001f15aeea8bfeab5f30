@@ -1,0 +1,22 @@
+package com;
+
+public class Persona {
+	
+	//Las clases nos van a servir como plantilla o molde para generar diversos objetos
+	
+	//Los objetos deben contar con atributos y comportamientos
+	
+	//ABTRACCION
+	//Atributos de una persona
+	
+	String nombre;
+	int edad;
+	String genero;
+	
+	
+	
+	
+	
+	
+
+}

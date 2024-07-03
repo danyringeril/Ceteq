@@ -1,0 +1,27 @@
+package com; //Nombre del paquete
+
+public class TiposDeDatos { //Inicio de la clase
+	
+	//Comentario de una sola linea
+	/*
+	 * Comentario 
+	 * de 
+	 * multiples
+	 * lineas
+	 * 
+	 */
+	public static void main(String[] args) {//Apertura del metodo main
+		//El metodo main es el punto de entrada o ejecucion
+		//de una clase principal o clase java 
+		
+		//Main + ctrl + espacio y se genera automaticamente el metodo
+		
+		/*TIPO DE DATOS
+		 * TIPO DE DATOS PRIMITIVOS
+		 * NUMEROS ENTEROS
+		 */
+		
+	}//Cierre del metodo main
+	
+	
+}//Cierre de la clase

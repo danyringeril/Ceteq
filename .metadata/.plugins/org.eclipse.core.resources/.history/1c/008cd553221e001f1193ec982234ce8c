@@ -1,0 +1,23 @@
+package com;
+
+public class MetodosString {
+
+	public static void main(String[] args) {
+		
+		//Métodos o funcionalidades de la clase String
+		
+		//Guardar una cadena de texto ejemplo
+		
+		String cadena = "Hoy es miercoles 22 de mayo del 2024";
+		
+		//.length() - devuelve el tamaño en valor entero
+		//de nuestra cadena de texto
+		
+		int conteo = cadena.length();
+		System.out.println(conteo);
+		
+		 
+
+	}
+
+}

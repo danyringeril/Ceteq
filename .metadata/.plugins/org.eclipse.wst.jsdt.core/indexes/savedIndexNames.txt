@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\Users\danyr\Downloads\CeteqMayo2024\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3221850832.index
+2746477925.index
+1020011051.index
+2324385367.index
+2670754190.index
+634506142.index
+2295838660.index
