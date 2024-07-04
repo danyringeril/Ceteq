@@ -8,13 +8,15 @@ public class Persona {
 	// Los objetos deben contar con atributos y comportamientos
 
 	/*
-	 * ABTRACCION Atributos de una persona con modificador de acceso Los atributos
+	 * ABSTRACCION Atributos de una persona con modificador de acceso Los atributos
 	 * deben de preferencia llevar un modificador de acceso para restringir dichos
 	 * valores de modificaciones no autorizadas Los modificadores son PRIVATE,
 	 * PUBLIC, DEFAULT, y PROTECTED Estos modificadoresnos permiten establecer la
 	 * ENCAPSULACION
 	 */
 
+	//ENCAPSULAMIENTO - Proteger la informacion de accesos o modificaciones no autorizadas
+	//default, public, protected, private
 	private String nombre;
 	private int edad;
 	private String genero;
