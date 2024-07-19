@@ -17,9 +17,7 @@ public class Principal {
 		 * grado Ej. Vehiculo (marca, tipo, paisOrigen) Carro, Barco, 
 		 */
 		
-		
-		
-		
+				
 		// Las clases al volverse abstractas, ya no pueden instanciarse
 		// (ya no podemos crear objetos de esa clase)
 		Persona juan = new Empleado();
@@ -43,6 +41,8 @@ public class Principal {
 		System.out.println(juan.comer("pizza"));
 
 		System.out.println(juan.comer("tacos", 3));
+		
+		System.out.println(juan.comer("Tortas", "3", "Alejandro"));
 
 		// Probar el método sumar a través de alguno de mis objetos empleado
 		juan.sumar(3, 10);

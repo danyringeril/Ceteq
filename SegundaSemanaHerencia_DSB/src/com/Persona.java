@@ -77,8 +77,9 @@ public abstract class Persona {
 		return comiendo;
 	}
 
-	public String comer(String comida, String horario) {
-		return null;
+	public String comer(String comida, String horario, String compañia) {
+		String comiendo = "Estoy comiendo " + comida + " a las " + horario + "pm " + "con " + compañia;
+		return comiendo;
 	}
 
 	// La sobrecarga de argumentos va de la mano con la sobrecarga de metodos
