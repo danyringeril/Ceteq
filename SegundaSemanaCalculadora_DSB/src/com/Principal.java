@@ -18,16 +18,20 @@ public class Principal {
 
 		casio.tomarTemperatura();
 
-		// La multiherencia en Java no existe. Es decir,
-		// una clase hija no puede tener dos padres.
-		// Pero se puede simular a través del uso de interfaces
-		// implementando los métodos de estas.
-
-		// ¿De dónde obtienen comportamientos los objetos/clases?
 		/*
-		 * 1. De métodos propios 2. De otras clases, clases abstractas (herencia) 3. De
-		 * interfaces
+		 *  La multiherencia en Java no existe. Es decir,
+		 *  una clase hija no puede tener dos padres.
+		 *  Pero se puede simular a través del uso de interfaces
+		 *  implementando los métodos de estas.
+		 *  
+		 *  ¿De dónde obtienen comportamientos los objetos/clases?
+		 *  
+		 *  1. De métodos propios 
+		 *  2. De otras clases, clases abstractas (herencia) 
+		 *  3. Deinterfaces
 		 */
+
+	
 
 	}
 
