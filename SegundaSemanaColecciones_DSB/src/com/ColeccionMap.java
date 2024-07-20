@@ -49,6 +49,13 @@ public class ColeccionMap {
 		/*Mandar a imprimir cada una de las llaves con un ciclo
 		 * for each
 		 */
+		for( Integer i: usuarios.keySet()) {
+			System.out.println(i);
+		}
+		
+		/*Mandar a imprimir cada una de los valores con un ciclo
+		 * for each
+		 */
 		for( String i: usuarios.values()){
 			System.out.println(i);
 		}
