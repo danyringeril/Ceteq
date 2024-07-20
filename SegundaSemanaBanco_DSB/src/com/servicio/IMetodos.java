@@ -5,10 +5,9 @@ import com.respuesta.Ticket;
 
 public interface IMetodos {
 
-	/*
-	 * Declaramos las operaciones que la clase encargada de la logica tendrá que
-	 * resolver
-	 */
+	// Aqui declaramos las operaciones que
+	// la clase encargada de la logica
+	// tendrá que resolver
 
 	// Consultar una cuenta de banco
 	public Cuenta consultar(int numeroCuenta);
@@ -16,7 +15,7 @@ public interface IMetodos {
 	// Retirar recursos de nuestra cuenta
 	public Ticket retirar(int numeroCuenta, double monto);
 
-	// Depositar recursos de nuestra cuenta
+	// Depositar recursos en nuestra cuenta
 	public Ticket depositar(int numeroCuenta, double monto);
 
 }

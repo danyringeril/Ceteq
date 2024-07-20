@@ -3,21 +3,21 @@ package com.respuesta;
 import java.util.Date;
 
 public class Ticket {
-
+	
 	/*
-	 * El proposito de esta clase es responder si las operciones se realizaron con
-	 * exito o no
+	 * El proposito de esta clase es responder
+	 * si las operaciones se realizaron con exito
+	 * o no
 	 */
-
+	
 	private int folio;
 	private Date fechaHora;
 	private String usuario;
 	private double saldo;
 	private String sucursal;
 	private int idCajero;
-
-	public Ticket() {
-	}
+	
+	public Ticket() {}
 
 	public Ticket(int folio, Date fechaHora, String usuario, double saldo, String sucursal, int idCajero) {
 		super();
@@ -82,5 +82,4 @@ public class Ticket {
 		return "Ticket [folio=" + folio + ", fechaHora=" + fechaHora + ", usuario=" + usuario + ", saldo=" + saldo
 				+ ", sucursal=" + sucursal + ", idCajero=" + idCajero + "]";
 	}
-
 }
