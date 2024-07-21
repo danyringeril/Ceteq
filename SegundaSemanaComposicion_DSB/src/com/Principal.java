@@ -26,6 +26,18 @@ public class Principal {
 		// EJEMPLO. UN CELULAR QUE SE COMPONE DE MARCA, MODELO, COLOR
 		// Y ADEMÁS TIENE CAMARA, PROCESADOR Y RAM
 		// EJ 2. PERSONAJE Y APARTE PUEDE TENER OBJETOS COMO ESPADA, ARMADURA Y PODER.
+		
+		/**************************************/
+		
+		Camara camara = new Camara("\nCanon","F45", 48);
+		
+		Memoria almac = new Memoria(128, 16, "SSD");
+		
+		Bateria bate = new Bateria("Niquel	", 12.5, "negro");
+		
+		Tablet samsung = new Tablet("Samsung", "Galaxia", "Gris fuerte", 9.9, camara, almac, bate);
+		
+		System.out.println(samsung);
 
 	}
 

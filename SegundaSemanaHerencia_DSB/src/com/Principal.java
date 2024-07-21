@@ -3,6 +3,7 @@ package com;
 public class Principal {
 
 	public static void main(String[] args) {
+		
 		// Vamos a probar crear una nueva persona
 		// Cuando una clase se vuelve abstracta, no podemos instanciarla
 		// es decir, no podemos crear objetos de esa clase
@@ -11,13 +12,15 @@ public class Principal {
 
 		// Vamos a probar a crear un nuevo empleado
 		Empleado jorge = new Empleado("Jorge", "Masculino", 33, "JRGF9776", "Desarrollador", "Matutino", 30000);
+
+		System.out.println(jorge);
 		
-		/*Crear otras dos clases, una que sea la clase padre y otra la clase 
-		 * hija Ej. Persona, que herede a estudiante matricula turno, horario, 
-		 * grado Ej. Vehiculo (marca, tipo, paisOrigen) Carro, Barco, 
+		/*
+		 * Crear otras dos clases, una que sea la clase padre y otra la clase hija Ej.
+		 * Persona, que herede a estudiante matricula turno, horario, grado Ej. Vehiculo
+		 * (marca, tipo, paisOrigen) Carro, Barco,
 		 */
-		
-				
+
 		// Las clases al volverse abstractas, ya no pueden instanciarse
 		// (ya no podemos crear objetos de esa clase)
 		Persona juan = new Empleado();
@@ -41,7 +44,7 @@ public class Principal {
 		System.out.println(juan.comer("pizza"));
 
 		System.out.println(juan.comer("tacos", 3));
-		
+
 		System.out.println(juan.comer("Tortas", "3", "Alejandro"));
 
 		// Probar el método sumar a través de alguno de mis objetos empleado
