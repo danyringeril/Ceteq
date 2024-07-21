@@ -15,8 +15,9 @@ public class Persona {
 	 * ENCAPSULACION
 	 */
 
-	//ENCAPSULAMIENTO - Proteger la informacion de accesos o modificaciones no autorizadas
-	//default, public, protected, private
+	// ENCAPSULAMIENTO - Proteger la informacion de accesos o modificaciones no
+	// autorizadas
+	// default, public, protected, private
 	private String nombre;
 	private int edad;
 	private String genero;
