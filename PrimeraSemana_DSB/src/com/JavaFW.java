@@ -18,6 +18,7 @@ public class JavaFW {
 
 			// Para escribir info en el archivo etulizamos la clase FileWriter
 			FileWriter linea = new FileWriter(archivo, true);
+
 			/*
 			 * Nuestro objeto linea se construye con dos valores, la ruta del archivo a
 			 * sobre escribir y un valor booleano true para indicar que se respete el
