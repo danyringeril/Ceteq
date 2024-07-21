@@ -5,16 +5,16 @@ import java.util.Scanner;
 public class Arrays1_DSB {
 
 	public static void main(String[] args) {
-		/*Crea un array de 10 posiciones de números con valores 
-		 * pedidos por teclado. Muestra por consola el índice y 
-		 * el valor al que corresponde.
+
+		/*
+		 * Crea un array de 10 posiciones de números con valores pedidos por teclado.
+		 * Muestra por consola el índice y el valor al que corresponde.
 		 */
-		
+
 		System.out.println("=============================");
 		System.out.println("=======Ejercicio1============");
 		System.out.println("=============================");
-		
-		
+
 		// Crear un array de 10 posiciones
 		int[] array = new int[10];
 

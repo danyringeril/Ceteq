@@ -3,6 +3,7 @@ package com.arrays;
 public class Arrays2_DSB {
 
 	public static void main(String[] args) {
+
 		/*
 		 * Crea un array de números de 100 posiciones, que contendrá los números del 1
 		 * al 100. Obtén la suma de todos ellos y la media.

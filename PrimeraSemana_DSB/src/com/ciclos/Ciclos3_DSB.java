@@ -40,9 +40,9 @@ public class Ciclos3_DSB {
 		// los espacios e ignorar el uso de mayusculas y minusculas
 		// Anitalavalatina //anitalavalatinA
 		if (original.replace(" ", "").equalsIgnoreCase(reversa.replace(" ", ""))) {
-			System.out.println("Es palindromo");
+			System.out.println("Es palíndromo");
 		} else {
-			System.out.println("No es palindromo");
+			System.out.println("No es palíndromo");
 		}
 
 	}

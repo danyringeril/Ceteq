@@ -8,25 +8,27 @@ public class TiposDeDatos { // Inicio de la clase
 	 * 
 	 */
 	public static void main(String[] args) {// Apertura del metodo main
-		// El metodo main es el punto de entrada o ejecucion
-		// de una clase principal o clase java
-
-		// Main + ctrl + espacio y se genera automaticamente el metodo
 
 		/*
+		 * El metodo main es el punto de entrada o ejecucion de una clase principal o
+		 * clase java
+		 * 
+		 * Main + ctrl + espacio y se genera automaticamente el metodo
+		 * 
 		 * TIPO DE DATOS TIPO DE DATOS PRIMITIVOS NUMEROS ENTEROS
+		 * 
+		 * CTRL + S para guardar los cambios en el codigo/clase
+		 * 
+		 * Declararlas sin un valor numérico asignado inicialmente *
+		 * 
 		 */
 
-		// CTRL + S para guardar los cambios en el codigo/clase
-
-		// Declararlas sin un valor numérico asignado inicialmente
 		byte by;
 
 		// Más adelante puedo asignarle un valor
 		by = 120;
 
-		// Declarar nuestras variables con valores
-		// asignados inicialmente
+		// Declarar nuestras variables con valores asignados inicialmente
 		byte numero1 = 127; // 1 byte - -128 a 127
 		short numero2 = 30000; // 2 byte - -32768 a 32767
 		int numero3 = 2147483647; // 4 bytes
@@ -57,11 +59,11 @@ public class TiposDeDatos { // Inicio de la clase
 		char caracter = 'a'; // Solo puede almacenar un caracter a la vez
 		// entre comilla simple
 
-		// TIPOS DE DATOS NO PRIMITIVOS
-		// TIPOS DE DATOS OBJETO/ESTRUCTURADOS
-		// TIPOS DE DATOS WRAPPER
-		// Esyos tipos de datos son clases, los vamos a identificar
-		// porque el tipo de dato inicia con Mayúscula
+		/*
+		 * TIPOS DE DATOS NO PRIMITIVOS TIPOS DE DATOS OBJETO/ESTRUCTURADOS TIPOS DE
+		 * DATOS WRAPPER Estos tipos de datos son clases, los vamos a identificar porque
+		 * el tipo de dato inicia con Mayúscula
+		 */
 
 		// Cadena de texto
 		String nombre = "Jorge Alejandro";
@@ -75,9 +77,11 @@ public class TiposDeDatos { // Inicio de la clase
 
 		String numeroTexto = "34";
 
-		// Tipos de datros Wrapper o envoltorio
-		// envuelven a los datos primitivos en clases para poder otorgarles
-		// ciertos comportamientos o métodos
+		/*
+		 * Tipos de datros Wrapper o envoltorio envuelven a los datos primitivos en
+		 * clases para poder otorgarles ciertos comportamientos o métodos
+		 */
+
 		Byte numero11 = 127;
 
 		numero11.toString(); // Convierte a cadena de texto el valor de mi
@@ -88,11 +92,12 @@ public class TiposDeDatos { // Inicio de la clase
 		// Darle salida a los datos en consola
 		System.out.println("Hola mundo");
 
-		// Un atajo para escribir la linea de impresion en consola
-		// más rapido
 		/*
-		 * syso + ctrl + espacio sout + ctrl + espacio
+		 * Un atajo para escribir la linea de impresion en consola más rapido
 		 */
+
+		// Syso + ctrl + espacio sout + ctrl + espacio
+
 		System.out.println();
 
 		System.out.println(nombre);

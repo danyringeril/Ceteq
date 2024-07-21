@@ -22,15 +22,18 @@ public class JavaFR {
 		try {// intenta ejecutar el sig bloque de codigo
 				// Usamos la clase File para ubicar nuestro archivo
 			File archivo = new File("C:\\Users\\danyr\\OneDrive\\Escritorio\\fichero.txt");
+
 			// Ya que tenemos ubicado el archivo, usamos a la clase FileReader para
 			// prepararlo
 			// modo lectra
+
 			FileReader fr = new FileReader(archivo);
 			// Ya que esta en modo lectura, usamos la clase BufferedReader
 			BufferedReader buffer = new BufferedReader(fr);
 
 			// Vamos a leer la info de la linea de nuestro archivo y la guardamos en nuestro
 			// String linea
+
 			while ((linea = buffer.readLine()) != null)
 
 				System.out.println(linea);

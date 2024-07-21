@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Arrays3_DSB {
 
 	public static void main(String[] args) {
+
 		/*
 		 * Pide al usuario por teclado una frase y pasa sus caracteres a un array de
 		 * caracteres.
@@ -13,9 +14,6 @@ public class Arrays3_DSB {
 		System.out.println("=============================");
 		System.out.println("=======Ejercicio3============");
 		System.out.println("=============================");
-
-		// .3 Pide al usuario por teclado una frase y pasa sus caracteres a un array de
-		// caracteres.
 
 		// Crear un objeto Scanner para leer la entrada del teclado
 		Scanner scanner = new Scanner(System.in);

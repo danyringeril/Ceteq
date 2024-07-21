@@ -9,6 +9,7 @@ public class Arrays5_DSB {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+
 		/*
 		 * Crea dos arrays, uno para mostrar n productos y otro para mostrar sus
 		 * respectivos precios. Muestra en consola la lista de productos y sus precios.
@@ -20,7 +21,7 @@ public class Arrays5_DSB {
 		System.out.println("=============================");
 
 		// Arrays de productos y precios
-		String[] productos = { "Ropa", "Pan", "Discos", "Tacos", "CocaCola" };
+		String[] productos = { "Ropa", "Pan", "Discos", "Tacos", "Coca Cola" };
 		double[] precios = { 10.50, 20.25, 15.75, 30.00, 12.99 };
 
 		// Mostrar la lista de productos y sus precios

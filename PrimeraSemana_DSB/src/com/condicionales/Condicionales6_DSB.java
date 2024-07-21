@@ -16,6 +16,10 @@ public class Condicionales6_DSB {
 		 * 1, y 50 céntimos cuando es de tamaño 2. Precio inicial se recibe desde
 		 * teclado
 		 */
+		
+		System.out.println("=============================");
+		System.out.println("=======Ejercicio6============");
+		System.out.println("=============================");
 
 		Scanner scanner = new Scanner(System.in);
 		int kilos;
