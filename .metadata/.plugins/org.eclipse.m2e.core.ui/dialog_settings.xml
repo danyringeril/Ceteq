@@ -26,6 +26,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.jdbc"/>
 			<item value="com.CRUDHibernate_DSB"/>
 			<item value="com.CRUDHibernet_DSB"/>
 			<item value="com.JDBCWEB_DSB"/>
@@ -34,6 +35,7 @@
 			<item value="com"/>
 		</list>
 		<list key="artifactId">
+			<item value="jdbc"/>
 			<item value="CRUDHibernate_DSB"/>
 			<item value="CRUDHibernet_DSB"/>
 			<item value="JDBCWEB_DSB"/>

@@ -1,15 +1,15 @@
 package com.general;
 
 public class Database {
-	
-	//Aqui vamos a "guardar", encapsular la info de acceso a base de datos
-	
+
+	// Aqui vamos a "guardar", encapsular la info de acceso a base de datos
+
 	private String driver = "oracle.jdbc.OracleDriver";
 	private String url = "jdbc:oracle:thin:@localhost:1521:xe";
 	private String usuario = "DanCeteq";
 	private String password = "admin";
-	
-	//¿Creamos un constructor "mixto"	
+
+	// ¿Creamos un constructor "mixto"
 	public Database() {
 		super();
 		this.driver = driver;
@@ -54,9 +54,5 @@ public class Database {
 	public String toString() {
 		return "Database [driver=" + driver + ", url=" + url + ", usuario=" + usuario + ", password=" + password + "]";
 	}
-	
-	
-	
-	
 
 }

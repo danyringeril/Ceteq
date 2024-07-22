@@ -1,14 +1,16 @@
 package com.general;
 
 public class Status {
-	
-	//Esta clase nos va a servir para responder o presentar respuesta desde el servidor
-	
+
+	// Esta clase nos va a servir para responder o presentar respuesta desde el
+	// servidor
+
 	private Object ob;
 	private String mensaje;
 	private String respuesta;
-	
-	public Status () {}
+
+	public Status() {
+	}
 
 	public Status(Object ob, String mensaje, String respuesta) {
 		super();
@@ -44,7 +46,6 @@ public class Status {
 	@Override
 	public String toString() {
 		return "Status [mensaje=" + mensaje + ", respuesta=" + respuesta + "]";
-	} 
-	 
+	}
 
 }

@@ -3,12 +3,12 @@ package com.entity;
 import java.sql.Date;
 
 public class Alumno {
-	
-	
-	/*En el paquete com.entity vamos a modelar los objetos o entidades de la base de datos
-	 * para poder manipularlos desde Java
+
+	/*
+	 * En el paquete com.entity vamos a modelar los objetos o entidades de la base
+	 * de datos para poder manipularlos desde Java
 	 */
-	
+
 	private int alumnoId;
 	private String nombre;
 	private Date fechaNac;
@@ -16,8 +16,9 @@ public class Alumno {
 	private String grado;
 	private String ciudad;
 	private int status;
-	
-	public Alumno() {}
+
+	public Alumno() {
+	}
 
 	public Alumno(int alumnoId, String nombre, Date fechaNac, String genero, String grado, String ciudad, int status) {
 		super();
@@ -29,6 +30,7 @@ public class Alumno {
 		this.ciudad = ciudad;
 		this.status = status;
 	}
+
 	public int getAlumnoId() {
 		return alumnoId;
 	}
@@ -90,5 +92,5 @@ public class Alumno {
 		return "Alumno [alumnoId=" + alumnoId + ", nombre=" + nombre + ", fechaNac=" + fechaNac + ", genero=" + genero
 				+ ", grado=" + grado + ", ciudad=" + ciudad + ", status=" + status + "]";
 	}
-	
+
 }

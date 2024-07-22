@@ -1,13 +1,13 @@
 package com.dto;
 
 public class ObjetoDTO {
-	
-	
-	private int matricula; 
+
+	private int matricula;
 	private String alumno;
 	private String carrera;
-	
-	public ObjetoDTO() {}
+
+	public ObjetoDTO() {
+	}
 
 	public ObjetoDTO(int matricula, String alumno, String carrera) {
 		super();
@@ -44,7 +44,5 @@ public class ObjetoDTO {
 	public String toString() {
 		return "ObjetoDTO [matricula=" + matricula + ", alumno=" + alumno + ", carrera=" + carrera + "]";
 	}
-	
-	
 
 }
