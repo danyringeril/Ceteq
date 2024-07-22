@@ -7,6 +7,7 @@ import java.sql.PreparedStatement;
 public class Create {
 
 	public static void main(String[] args) {
+		
 		// Create - Insertar registros (INSERT)
 
 		Connection con = null;
@@ -22,11 +23,11 @@ public class Create {
 
 			// Establecemos los valores para crear nuestro nuevo registro
 			ps.setInt(1, 1); // en esta linea se inserta el id y lo hace el disparador
-			ps.setString(2, "KARINA");
+			ps.setString(2, "CECAR");
 			ps.setString(3, "5/12/2019");
-			ps.setString(4, "FEMENINO");
-			ps.setString(5, "4TO SEMESTRE");
-			ps.setString(6, "ACAPULCO");
+			ps.setString(4, "MASCULINO");
+			ps.setString(5, "5TO SEMESTRE");
+			ps.setString(6, "TEQUISQUIAPAN");
 			ps.setInt(7, 1);
 			// Una vez establecemos los valores, ejecutamos el INSERT
 			int flag = ps.executeUpdate();

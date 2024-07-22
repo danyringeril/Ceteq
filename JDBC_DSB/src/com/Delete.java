@@ -21,7 +21,7 @@ public class Delete {
 
 			// Unicamente mandamos la indo del ID a eliminar
 
-			ps.setInt(1, 1);// El ID se envia al final como en la sentencia se indica
+			ps.setInt(1, 46);// El ID se envia al final como en la sentencia se indica
 			// Una vez establecemos los valores, ejecutamos el INSERT
 			int flag = ps.executeUpdate();
 

@@ -1,18 +1,12 @@
 INDEX VERSION 1.131+C:\Users\danyr\Downloads\CeteqMayo2024\.metadata\.plugins\org.eclipse.jdt.core
 2790286684.index
-1946442288.index
-2233720637.index
 2139363602.index
 3010456320.index
-2842296166.index
-2120794399.index
 117527333.index
 2821490460.index
 3427076139.index
 2590138268.index
-2265381642.index
 418810946.index
-3807486950.index
 1026731204.index
 3359126204.index
 1820485476.index
@@ -21,7 +15,6 @@ INDEX VERSION 1.131+C:\Users\danyr\Downloads\CeteqMayo2024\.metadata\.plugins\or
 4283066209.index
 1504409487.index
 1190972293.index
-3729101776.index
 1756497225.index
 1333207965.index
 1312465531.index
@@ -32,13 +25,9 @@ INDEX VERSION 1.131+C:\Users\danyr\Downloads\CeteqMayo2024\.metadata\.plugins\or
 4116850674.index
 3743074262.index
 146940296.index
-1392690767.index
 883552024.index
 2610165776.index
-3768332817.index
-2364846134.index
 3677607187.index
-2520862210.index
 684837857.index
 1708165890.index
 3992366826.index
@@ -46,22 +35,17 @@ INDEX VERSION 1.131+C:\Users\danyr\Downloads\CeteqMayo2024\.metadata\.plugins\or
 2834984986.index
 1894431027.index
 207516710.index
-1065924668.index
-4127817745.index
 1709393735.index
 313443100.index
 2994055536.index
-1168800658.index
 2050779011.index
 3216128741.index
 3161387880.index
 2298439759.index
 3278796715.index
-3671466166.index
 3389830334.index
 2213174166.index
 1780240535.index
-524684571.index
 2057448771.index
 3743934593.index
 3781971299.index
@@ -78,7 +62,6 @@ INDEX VERSION 1.131+C:\Users\danyr\Downloads\CeteqMayo2024\.metadata\.plugins\or
 1360222312.index
 184392272.index
 3472005458.index
-538543729.index
 3255955309.index
 39274489.index
 1020011051.index
@@ -89,5 +72,4 @@ INDEX VERSION 1.131+C:\Users\danyr\Downloads\CeteqMayo2024\.metadata\.plugins\or
 274779140.index
 761548855.index
 2623064943.index
-800170301.index
 1155935034.index

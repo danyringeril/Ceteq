@@ -12,7 +12,7 @@ public class Update {
 
 		Connection con = null;
 		PreparedStatement ps = null;
-		String query = "UPDATE ALUMNOS SET NOMBRE=?, FECHANAC=?, " + "GENERO=?, GRADO=?, CIUDAD=? WHERE ALUMNO_ID=?";
+		String query = "UPDATE ALUMNOS SET NOMBRE=?, FECHANAC=?, GENERO=?, GRADO=?, CIUDAD=? WHERE ALUMNO_ID=?";
 
 		try {
 			Class.forName("oracle.jdbc.OracleDriver");
@@ -23,12 +23,12 @@ public class Update {
 			// pero las columnas van indicadas en el orden en la que aparecen en la
 			// sentencia
 
-			ps.setString(1, "ERICK");
-			ps.setString(2, "5/12/2010");
+			ps.setString(1, "ALEJANDRO");
+			ps.setString(2, "5/12/2011");
 			ps.setString(3, "MASCULINO");
 			ps.setString(4, "3ER SEMESTRE");
-			ps.setString(5, "JALISCO");
-			ps.setInt(6, 7);// El ID se envia al final como en la sentencia se indica
+			ps.setString(5, "CDMX");
+			ps.setInt(6, 2);// El ID se envia al final como en la sentencia se indica
 			// Una vez establecemos los valores, ejecutamos el INSERT
 			int flag = ps.executeUpdate();
 

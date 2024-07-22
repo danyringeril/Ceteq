@@ -8,6 +8,7 @@ import java.sql.ResultSet;
 public class Read {
 
 	public static void main(String[] args) {
+
 		/*
 		 * READ - JDBC - Consultar datos Consultar nuestra tabla ALUMNO
 		 */
@@ -29,8 +30,8 @@ public class Read {
 
 			while (rs.next()) {// Mientras existan registros por leer
 				System.out.println(rs.getInt("ALUMNO_ID") + ":" + rs.getString("NOMBRE") + ":"
-						+ rs.getString("FECHANAC") + ":" + rs.getString("GENERO") + ":" + ":" + rs.getString("GRADO")
-						+ ":" + rs.getNString("CIUDAD") + ":" + ":" + rs.getString("STATUS"));
+						+ rs.getDate("FECHANAC") + ":" + rs.getString("GENERO") + ":" + rs.getString("GRADO")
+						+ ":" + rs.getNString("CIUDAD") + ":" + rs.getInt("STATUS"));
 			}
 
 		} catch (Exception e) {
