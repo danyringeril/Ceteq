@@ -9,13 +9,13 @@ import javax.persistence.Persistence;
 import com.entity.Ordenes;
 import com.general.Metodos;
 
-public class OrdenesDAO implements Metodos{
-	
+public class OrdenesDAO implements Metodos {
+
 	EntityManagerFactory emf = Persistence.createEntityManagerFactory("Tables");
 	EntityManager em = emf.createEntityManager();
-	
+
 	Ordenes orden = null;
-	
+
 	@Override
 	public String guardar(Object ob) {
 		// TODO Auto-generated method stub
@@ -43,7 +43,7 @@ public class OrdenesDAO implements Metodos{
 	@Override
 	public List mostrar() {
 		List<Ordenes> Lista = em.createQuery("from Ordenes").getResultList();
-		
+
 		return Lista;
 	}
 

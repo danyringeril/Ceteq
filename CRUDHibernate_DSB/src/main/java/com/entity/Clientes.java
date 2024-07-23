@@ -1,4 +1,4 @@
- package com.entity;
+package com.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -9,42 +9,43 @@ import javax.persistence.OneToOne;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
-@Entity //Indica que estamos trabajando con una entidad de base de datos
-@Table (name="CLIENTES")
+@Entity // Indica que estamos trabajando con una entidad de base de datos
+@Table(name = "CLIENTES")
 public class Clientes {
-	
-	@Id//Especifica que este atributo es una primary key en una BD
-	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="cid_auto")
-	@SequenceGenerator (name="cid_auto", sequenceName="CLIENTES_SEQ")
-	
-	@Column(name="CLIENTE_ID", columnDefinition="NUMBER")
+
+	@Id // Especifica que este atributo es una primary key en una BD
+	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "cid_auto")
+	@SequenceGenerator(name = "cid_auto", sequenceName = "CLIENTES_SEQ")
+
+	@Column(name = "CLIENTE_ID", columnDefinition = "NUMBER")
 	private int clienteId;
-	
-	@Column(name="NOMBRE", columnDefinition="NVARCHAR2(15)")
+
+	@Column(name = "NOMBRE", columnDefinition = "NVARCHAR2(15)")
 	private String nombre;
-	
-	@Column(name="DIRECCION", columnDefinition="NVARCHAR2(40)")
+
+	@Column(name = "DIRECCION", columnDefinition = "NVARCHAR2(40)")
 	private String direccion;
-	
-	@Column(name="INE", columnDefinition="NVARCHAR2(10)")
+
+	@Column(name = "INE", columnDefinition = "NVARCHAR2(10)")
 	private String ine;
-	
-	@Column(name="TELEFONO", columnDefinition="NVARCHAR2(10)")
+
+	@Column(name = "TELEFONO", columnDefinition = "NVARCHAR2(10)")
 	private String telefono;
-	
-	//Declaramos un objeto Ordenes, que es un atributo relacional
-	//pero que no existe en mi tabla
-	@OneToOne(mappedBy="cliente")
+
+	// Declaramos un objeto Ordenes, que es un atributo relacional
+	// pero que no existe en mi tabla
+	@OneToOne(mappedBy = "cliente")
 	private Ordenes orden;
-	
-	public Clientes()	{}
+
+	public Clientes() {
+	}
 
 	public Clientes(int clienteId) {
 		super();
 		this.clienteId = clienteId;
 	}
-	
-	//Getter&Setters
+
+	// Getter&Setters
 
 	public int getClienteId() {
 		return clienteId;
@@ -85,8 +86,6 @@ public class Clientes {
 	public void setTelefono(String telefono) {
 		this.telefono = telefono;
 	}
-	
-	
 
 	public Ordenes getOrden() {
 		return orden;
@@ -101,9 +100,5 @@ public class Clientes {
 		return "Clientes [clienteId=" + clienteId + ", nombre=" + nombre + ", direccion=" + direccion + ", ine=" + ine
 				+ ", telefono=" + telefono + "]";
 	}
-	
-	
-	
-	
 
 }

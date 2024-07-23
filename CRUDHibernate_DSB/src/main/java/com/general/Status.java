@@ -1,7 +1,7 @@
 package com.general;
 
 public class Status {
-	
+
 	private Object ob;
 	private String mensaje, respuesta;
 
@@ -14,7 +14,6 @@ public class Status {
 		this.respuesta = respuesta;
 
 	}
-
 
 	public Object getOb() {
 		return ob;
@@ -44,8 +43,5 @@ public class Status {
 	public String toString() {
 		return "Status [ob=" + ob + ", mensaje=" + mensaje + ", respuesta=" + respuesta + "]";
 	}
-	
-	
-	
-	
+
 }
